@@ -1,0 +1,93 @@
+> use local
+switched to db local
+> db.employees.find()
+{ "_id" : ObjectId("61d90ae3d21a36f8ab41b546"), "First_Name" : "Amar", "Last_Name" : "Arris", "employee_ID" : "200012", "Salary" : "120k/year", "Position" : "Developer" }
+{ "_id" : ObjectId("61d90bf1d21a36f8ab41b547"), "First_Name" : "Rachid", "Last_Name" : "Alane", "employee_ID" : "54215", "Salary" : "200k/year", "Position" : "manager IT" }
+{ "_id" : ObjectId("61d90cbcd21a36f8ab41b548"), "First_Name" : "Djamel", "Last_Name" : "Aitallou", "employee_ID" : "212365", "Salary" : "123k/year", "Position" : "Scrum Master" }
+{ "_id" : ObjectId("61d90dabd21a36f8ab41b549"), "First_Name" : "Sofiane", "Last_Name" : "Boumali", "employee_ID" : "8547569", "Salary" : "124k/year", "Position" : "Project Manager" }
+{ "_id" : ObjectId("61d90e76d21a36f8ab41b54a"), "First_Name" : "Ali", "Last_Name" : "Laziri", "employee_ID" : "625889", "Salary" : "210K/year", "Position" : "Test lead" }
+{ "_id" : ObjectId("61d90f3ad21a36f8ab41b54b"), "First_Name" : "Akli", "Last_Name" : "Lounis", "employee_ID" : "4566978", "Salary" : "100K/year", "Position" : "Sales Manager" }
+{ "_id" : ObjectId("61d90fd6d21a36f8ab41b54c"), "First_Name" : "Karim", "Last_Name" : "Ziani", "employee_ID" : "154225", "Salary" : "85K/year", "Position" : "Business Analyst" }
+{ "_id" : ObjectId("61d91150d21a36f8ab41b54d"), "First_Name" : "Moh", "Last_Name" : "Perimoune", "employee_ID" : "2366514", "Salary" : "89K/year", "Position" : "Assistant Manager" }
+{ "_id" : ObjectId("61d9121ed21a36f8ab41b54e"), "First_Name" : "Hakim", "Last_Name" : "Manich", "employee_ID" : "123658", "Salary" : "98K/year", "Position" : "Architect" }
+{ "_id" : ObjectId("61d913f5d21a36f8ab41b54f"), "First_Name" : "Madjid", "Last_Name" : "Alama", "employee_ID" : "963258", "Salary" : "78K/year", "Position" : "Engineer" }
+> db.employees.find().pretty()
+{
+        "_id" : ObjectId("61d90ae3d21a36f8ab41b546"),
+        "First_Name" : "Amar",
+        "Last_Name" : "Arris",
+        "employee_ID" : "200012",
+        "Salary" : "120k/year",
+        "Position" : "Developer"
+}
+{
+        "_id" : ObjectId("61d90bf1d21a36f8ab41b547"),
+        "First_Name" : "Rachid",
+        "Last_Name" : "Alane",
+        "employee_ID" : "54215",
+        "Salary" : "200k/year",
+        "Position" : "manager IT"
+}
+{
+        "_id" : ObjectId("61d90cbcd21a36f8ab41b548"),
+        "First_Name" : "Djamel",
+        "Last_Name" : "Aitallou",
+        "employee_ID" : "212365",
+        "Salary" : "123k/year",
+        "Position" : "Scrum Master"
+}
+{
+        "_id" : ObjectId("61d90dabd21a36f8ab41b549"),
+        "First_Name" : "Sofiane",
+        "Last_Name" : "Boumali",
+        "employee_ID" : "8547569",
+        "Salary" : "124k/year",
+        "Position" : "Project Manager"
+}
+{
+        "_id" : ObjectId("61d90e76d21a36f8ab41b54a"),
+        "First_Name" : "Ali",
+        "Last_Name" : "Laziri",
+        "employee_ID" : "625889",
+        "Salary" : "210K/year",
+        "Position" : "Test lead"
+}
+{
+        "_id" : ObjectId("61d90f3ad21a36f8ab41b54b"),
+        "First_Name" : "Akli",
+        "Last_Name" : "Lounis",
+        "employee_ID" : "4566978",
+        "Salary" : "100K/year",
+        "Position" : "Sales Manager"
+}
+{
+        "_id" : ObjectId("61d90fd6d21a36f8ab41b54c"),
+        "First_Name" : "Karim",
+        "Last_Name" : "Ziani",
+        "employee_ID" : "154225",
+        "Salary" : "85K/year",
+        "Position" : "Business Analyst"
+}
+{
+        "_id" : ObjectId("61d91150d21a36f8ab41b54d"),
+        "First_Name" : "Moh",
+        "Last_Name" : "Perimoune",
+        "employee_ID" : "2366514",
+        "Salary" : "89K/year",
+        "Position" : "Assistant Manager"
+}
+{
+        "_id" : ObjectId("61d9121ed21a36f8ab41b54e"),
+        "First_Name" : "Hakim",
+        "Last_Name" : "Manich",
+        "employee_ID" : "123658",
+        "Salary" : "98K/year",
+        "Position" : "Architect"
+}
+{
+        "_id" : ObjectId("61d913f5d21a36f8ab41b54f"),
+        "First_Name" : "Madjid",
+        "Last_Name" : "Alama",
+        "employee_ID" : "963258",
+        "Salary" : "78K/year",
+        "Position" : "Engineer"

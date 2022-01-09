@@ -1,0 +1,24 @@
+mysql> use NEWDATA;
+Database changed
+mysql> select * from STUDENT;
++------------+-----------+------------+------+-------+
+| First_Name | Last_Name | Student_ID | GPA  | Grade |
++------------+-----------+------------+------+-------+
+| Akli       | Oukaci    |      20072 |  2.1 | C     |
+| Ali        | Elkanz    |     200209 |  3.4 | B     |
+| Amar       | Arris     |      20022 |  3.5 | B+    |
+| Djamel     | Ait_Allou |      20032 |    4 | A     |
+| Karim      | Ziani     |      20452 |  3.2 | B     |
+| Madjid     | Bougara   |     208902 |  3.5 | B+    |
+| Rachid     | Alane     |     201022 |  3.9 | B+    |
+| Sidiabou   | Belmadi   |    2002102 |    4 | A     |
+| Sofiane    | Boumali   |     200282 |  3.7 | B+    |
+| Zizou      | Zidane    |     203422 |  3.8 | B+    |
++------------+-----------+------------+------+-------+
+10 rows in set (0.00 sec)
+
+mysql>
+
+
+
+
