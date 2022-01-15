@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="junit-4.13.2.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/project-homework4/src/lib/junit-4.13.2.jar!/"/>
+	</lib>
+</component>
